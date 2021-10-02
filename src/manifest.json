@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CSEA",
+  "version": "1.0",
+  "description": "Chromium Serch Engine Aliases. This can be called by ':', in Omnibox",
+  "icons": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "omnibox": {
+    "keyword": ":"
+  }
+}
